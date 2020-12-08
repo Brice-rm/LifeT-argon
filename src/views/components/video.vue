@@ -1,21 +1,22 @@
 <template>
-    <footer>
-        <div id="cont-img2">
-            <img src="img/Life/twitter-logo.png" alt="twitter" class="img-f">
-            <img src="img/Life/snapcatch-logo.png" alt="snap" class="img-f">
-            <img src="img/Life/instagram-logo.png" alt="insta" class="img-f">
-            <img src="img/Life/facebook.png" alt="fb" class="img-f">
-        </div>
-        <div id="cont-text">
-            <p class="p-f1">SUPPORT</p>
-            <p class="p-f2">NUMERO</p>
-            <p class="p-f3">MAIL</p>
-        </div>
-    </footer>
+  <main>
+    <div id="container-titre1">
+      <p id="titre1">PAYSAGE</p>
+    </div>
+    <section class="video">
+      <iframe
+        width="500"
+        height="315"
+        src="https://www.youtube.com/embed/BHACKCNDMW8?start=26"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </section>
+  </main> 
 </template>
 <script>
-export default {
-}
+  export default {};
 </script>
 <style>
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!! */

@@ -1,19 +1,10 @@
 <template>
-  <header class="header-global ">
+  <!-- <header class="header-global">
     <div style="position: relative">
+      <img src="img/Life/logo life travel.png" id="logo">
       <base-nav type="white" effect="light" expand>
-        <a class="navbar-brand" href="#"><img src="img/Life/logo life travel.png" id="logo"></a>
-
-        <div class="row" type="dark" slot="content-header" slot-scope="{ closeMenu }">
-          <div class="col-6 collapse-brand">
-            <img src="img/Life/logo life travel.png">
-          </div>
-          <div class="col-6 collapse-close">
-            <close-button @click="closeMenu"></close-button>
-          </div>
-        </div>
-
-        <ul class="navbar-nav ml-lg-auto ">
+      
+        <ul class="navbar-nav m-0 flex justify-content-lg-end">
           <li class="nav-item">
             <a class="nav-link nav-link-icon" href="#"> ACCUEIL </a>
           </li>
@@ -28,21 +19,33 @@
         </ul>
       </base-nav>
     </div>
-  </header>
+  </header> -->
+  <b-navbar toggleable type="light" variant="light">
+   <img src="img/Life/logo life travel.png" id="logo">
+
+    <b-navbar-toggle target="navbar-toggle-collapse">
+      <template #default="{ expanded }">
+        <b-icon v-if="expanded" icon="chevron-bar-up"></b-icon>
+        <b-icon v-else icon="chevron-bar-down"></b-icon>
+      </template>
+    </b-navbar-toggle>
+
+    <b-collapse id="navbar-toggle-collapse" is-nav>
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item href="#">ACCUEIL</b-nav-item>
+        <b-nav-item href="#">PANIER</b-nav-item>
+        <b-nav-item href="#" disabled>CONTACTS</b-nav-item>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
 </template>
 
 <script>
-import BaseNav from "@/components/BaseNav";
-import BaseDropdown from "@/components/BaseDropdown";
-import CloseButton from "@/components/CloseButton";
 
-export default {
-  components: {
-    BaseNav,
-    CloseButton,
-    BaseDropdown,
-  },
-};
+
+// export default {
+
+// };
 </script>
 <style>
 
