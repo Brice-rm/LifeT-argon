@@ -88,14 +88,12 @@ export default {};
   background-repeat: no-repeat;
   margin: 10px 0px 0px 0px;
 }
-
 #block {
   height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 #form-home {
   width: 300px;
   height: 250px;
@@ -110,22 +108,18 @@ export default {};
   align-items: center;
   justify-content: space-around;
 }
-
 .titre-form {
   margin: 3px 60px -20px -90px;
   font-size: 12px;
 }
-
 .sous-titre {
   font-size: 10px;
   margin: 4px 0px 2px -230px;
 }
-
 .duration {
   font-size: 10px;
   margin: 5px;
 }
-
 .input,
 #search-input {
   height: 20px;
@@ -133,7 +127,6 @@ export default {};
   border-radius: 10px;
   border: none;
 }
-
 #choose,
 #people {
   width: 100%;
@@ -141,7 +134,6 @@ export default {};
   flex-direction: row;
   justify-content: space-around;
 }
-
 .select1 {
   height: 20px;
   width: 110px;
@@ -151,20 +143,17 @@ export default {};
   padding-left: 50px;
   appearance: none;
 }
-
 #search-input {
   background-color: #ffa755;
   font-weight: bold;
   margin: 10px;
   font-size: 8px;
 }
-
 @media screen and (min-width: 770px) and (max-width: 990px) {
   #main-img {
     height: 400px;
     width: auto;
   }
-
   #block {
     height: 400px;
   }
@@ -177,7 +166,6 @@ export default {};
     margin: 0px 80px -25px -60px;
     font-size: 20px;
   }
-
   .sous-titre {
     font-size: 13px;
     margin: 0px 0px 0px -270px;
@@ -186,7 +174,6 @@ export default {};
     font-size: 13px;
     margin: 5px;
   }
-
   .input,
   #search-input {
     height: 20px;
@@ -198,7 +185,6 @@ export default {};
   #main-img {
     height: 800px;
   }
-
   /* Form */
   #block {
     height: 900px;
@@ -207,7 +193,6 @@ export default {};
     align-items: center;
     justify-content: flex-start;
   }
-
   #form-home {
     width: 550px;
     height: 600px;
@@ -215,23 +200,19 @@ export default {};
     border-radius: 7px;
     margin: 0px 40px 180px 50px;
   }
-
   .titre-form {
     margin: 10px 0px 0px -250px;
     font-size: 26px;
   }
-
   .sous-titre,
   .duration {
     font-size: 15px;
   }
-
   .sous-titre {
     margin: -30px;
     margin-left: -450px;
     margin-bottom: -45px;
   }
-
   .input,
   #search-input {
     border-radius: 20px;
@@ -239,19 +220,16 @@ export default {};
     height: 35px;
     width: 450px;
   }
-
   .input,
   #search-input,
   .select1:focus {
     outline: none;
   }
-
   #choose,
   #people {
     width: 450px;
     justify-content: space-between;
   }
-
   .select1 {
     border-radius: 20px;
     border: none;
@@ -260,7 +238,6 @@ export default {};
     font-size: 15px;
     padding-left: 80px;
   }
-
   #search-input {
     font-size: 13px;
   }

@@ -1,54 +1,52 @@
 <template>
-  <!-- <header class="header-global">
-    <div style="position: relative">
-      <img src="img/Life/logo life travel.png" id="logo">
-      <base-nav type="white" effect="light" expand>
-      
-        <ul class="navbar-nav m-0 flex justify-content-lg-end">
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="#"> ACCUEIL </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="#"> PANIER </a>
-          </li>
-               <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="#"> CONTACTS </a>
-          </li>
-          
 
-        </ul>
-      </base-nav>
+<div style="position: relative">
+<base-nav type="white" effect="light" expand>
+    <a class="navbar-brand" href="#"></a>
+
+    <div class="row" slot="content-header" slot-scope="{closeMenu}">
+        <div class="col-6 collapse-brand">
+                <img src="img/Life/logo life travel.png" id="logo">
+        </div>
+        <div class="col-6 collapse-close">
+            <close-button type="button" @click="closeMenu"></close-button>
+        </div>
     </div>
-  </header> -->
-  <b-navbar toggleable type="light" variant="light">
-   <img src="img/Life/logo life travel.png" id="logo">
 
-    <b-navbar-toggle target="navbar-toggle-collapse">
-      <template #default="{ expanded }">
-        <b-icon v-if="expanded" icon="chevron-bar-up"></b-icon>
-        <b-icon v-else icon="chevron-bar-down"></b-icon>
-      </template>
-    </b-navbar-toggle>
-
-    <b-collapse id="navbar-toggle-collapse" is-nav>
-      <b-navbar-nav class="ml-auto">
-        <b-nav-item href="#">ACCUEIL</b-nav-item>
-        <b-nav-item href="#">PANIER</b-nav-item>
-        <b-nav-item href="#" disabled>CONTACTS</b-nav-item>
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
+    <ul class="navbar-nav ml-lg-auto">
+        <li class="nav-item">
+            <router-link to='/' class="nav">
+                ACCUEIL
+            </router-link>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="#">
+                PANIER
+            </a>
+        </li>
+          <li class="nav-item">
+            <router-link to='/Landing' class="nav" >
+                CONTACTS
+            </router-link>
+        </li>
+    </ul>
+ </base-nav>
+</div>
 </template>
-
 <script>
+import BaseNav from "@/components/BaseNav";
+import BaseDropdown from "@/components/BaseDropdown";
+import CloseButton from "@/components/CloseButton";
 
-
-// export default {
-
-// };
+export default {
+  components: {
+    BaseNav,
+    CloseButton,
+    BaseDropdown
+  }
+};
 </script>
 <style>
-
 * {
   margin: 0;
   padding: 0;
@@ -57,7 +55,6 @@
 p {
    margin: 0;
 }
-
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* HEADER */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -65,7 +62,9 @@ p {
   height: 60px;
   margin: 10px 0px 0px 10px;
 }
-
+.nav{
+  font-family: "Roboto", sans-serif;
+}
 @media screen and (min-width: 770px) and (max-width: 990px) {
   #logo {
     height: 60px;
@@ -82,3 +81,4 @@ p {
   z-index: 100;
 }
 </style>
+

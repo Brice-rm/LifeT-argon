@@ -1,19 +1,16 @@
 <template>
-    <div>
-      <mainimg></mainimg>
-      <carousel></carousel>
-      <picto></picto>
-      <video></video>
-      
-    </div>
+<div>
+    <mainimg></mainimg>
+    <carousel></carousel>
+    <picto></picto>
+    <!-- <video></video> -->
+</div>
 </template>
 <script>
-import Mainimg from "./components/mainimg";
-import Carousel from "./components/carousel";
-import Picto from "./components/picto";
-import Video from "./components/video";
-
-
+import Carousel from './components/Carousel';
+import Mainimg from './components/Mainimg';
+import Picto from './components/Picto';
+// import Video from './components/video';
 
 export default {
   name: "components",
@@ -21,7 +18,8 @@ export default {
     Mainimg,
     Carousel,
     Picto,
-    Video
-  },
+    // Video
+  }
 };
+
 </script>

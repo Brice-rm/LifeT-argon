@@ -1,11 +1,11 @@
 <template>
 <section id="picto">
         <div id="contain-img">
-          <img src="images/Life/picto-avion.png" alt="picto-avion" class="picto-img">
+          <img src="img/Life/picto-avion.png" alt="picto-avion" class="picto-img">
 
-          <img src="images/Life/placeholder.png" alt="picto-map" class="picto-img">
+          <img src="img/Life/placeholder.png" alt="picto-map" class="picto-img">
 
-          <img src="images/Life/shopping-bag.png" alt="picto-shop" class="picto-img">
+          <img src="img/Life/shopping-bag.png" alt="picto-shop" class="picto-img">
         </div>
         <div class="contain-descr">
           <p class="descr-picto">Transport inclu.</p>
@@ -30,28 +30,24 @@
   background-size: 100%;
   box-shadow: 0px 3px 4px #c4c4c4;
 }
-
 #contain-img,
 .contain-descr {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-
 .picto-img {
   margin: 25px 0px 10px 0px;
   width: 40px;
   padding-bottom: 10px;
   border-bottom: 1px solid #4f555c;
 }
-
 .descr-picto {
   font-size: 10px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-align: center;
 }
-
 /* Video */
 .video {
   margin-top: 30px;
@@ -60,7 +56,6 @@
   justify-content: center;
 }
 @media screen and (min-width: 770px) and (max-width: 990px) {
-
  /* PICTO */
   #picto {
    
@@ -69,13 +64,11 @@
     width: auto;
     background-size: 100%;
   }
-
   .picto-img {
     margin: 50px 0px 10px 0px;
     width: 55px;
     padding-bottom: 10px;
   }
-
   .descr-picto {
     font-size: 12px;
   }
@@ -87,19 +80,16 @@
     height: 400px;
     background-size: 100%;
   }
-
   .picto-img {
     margin: 150px 0px 10px 0px;
     width: 100px;
     border-bottom: 1px solid #4f555c;
   }
-
   .descr-picto {
     text-align: center;
     font-size: 20px;
     width: 200px;
   }
-
   /* Video */
   .video {
     margin-bottom: 70px;
