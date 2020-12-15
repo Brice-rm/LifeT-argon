@@ -9,7 +9,7 @@
                 <img src="img/Life/logo life travel.png" id="logo">
         </div>
         <div class="col-6 collapse-close">
-            <close-button type="button" @click="closeMenu"></close-button>
+            <close-button type="button" @click="closeMenu" ></close-button>
         </div>
     </div>
 
@@ -67,6 +67,9 @@ p {
 }
 .nav:hover{
   color: lightslategray;
+}
+#hambc{
+  background-color: #4F555C;
 }
 @media screen and (min-width: 770px) and (max-width: 990px) {
   #logo {
