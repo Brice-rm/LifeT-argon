@@ -14,16 +14,16 @@
     </div>
 
     <ul class="navbar-nav ml-lg-auto">
-        <li class="nav-item">
+        <li class="nav-item pr-3">
             <router-link to='/' class="nav">
                 ACCUEIL
             </router-link>
         </li>
-          <li class="nav-item">
+          <li class="nav-item pr-3">
             <router-link to='/Panier' class="nav" >
                 PANIER
             </router-link>
-          <li class="nav-item">
+          <li class="nav-item pr-3">
             <router-link to='/Landing' class="nav" >
                 CONTACTS
             </router-link>
@@ -63,6 +63,10 @@ p {
 }
 .nav{
   font-family: "Roboto", sans-serif;
+  color: #4F555C;
+}
+.nav:hover{
+  color: lightslategray;
 }
 @media screen and (min-width: 770px) and (max-width: 990px) {
   #logo {

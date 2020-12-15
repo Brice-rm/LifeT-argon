@@ -8,6 +8,7 @@ import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
 import Panier from "./views/Panier.vue";
+import Recherchev from "./views/Recherchev.vue";
 
 
 Vue.use(Router);
@@ -66,6 +67,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Panier,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/recherchev",
+      name: "recherchev",
+      components: {
+        header: AppHeader,
+        default: Recherchev,
         footer: AppFooter
       }
     }

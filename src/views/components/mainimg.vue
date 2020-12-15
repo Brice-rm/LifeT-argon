@@ -1,79 +1,79 @@
 <template>
-    <section id="main-img">
-      <div id="block">
-        <form action="search" id="form-home">
-          <h2 class="titre-form">TROUVE TON VOYAGE</h2>
-          <br />
+  <section id="main-img">
+    <div id="block">
+      <form action="search" id="form-home">
+        <h2 class="titre-form">TROUVE TON VOYAGE</h2>
+        <br />
 
-          <h4 class="sous-titre">DE</h4>
-          <div class="block-1">
-            <input type="from" class="input" />
+        <h4 class="sous-titre">DE</h4>
+        <div class="block-1">
+          <input type="from" class="input" />
+        </div>
+
+        <h4 class="sous-titre">A</h4>
+        <div class="block-1">
+          <input type="to" class="input" />
+        </div>
+
+        <div id="choose">
+          <div class="selection">
+            <h4 class="duration">DATE DEPART</h4>
+            <select name="option" class="select1">
+              <option disabled="disabled" selected="selected">Select</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+            </select>
           </div>
 
-          <h4 class="sous-titre">A</h4>
-          <div class="block-1">
-            <input type="to" class="input" />
+          <div class="selection">
+            <h4 class="duration">DATE FINAL</h4>
+            <select name="option" class="select1">
+              <option disabled="disabled" selected="selected">Select</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+            </select>
+          </div>
+        </div>
+
+        <div id="people">
+          <div class="selection">
+            <h4 class="duration">ADULTE</h4>
+            <select name="option" class="select1">
+              <option disabled="disabled" selected="selected">Select</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+            </select>
           </div>
 
-          <div id="choose">
-            <div class="selection">
-              <h4 class="duration">DATE DEPART</h4>
-              <select name="option" class="select1">
-                <option disabled="disabled" selected="selected">Select</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-              </select>
-            </div>
-
-            <div class="selection">
-              <h4 class="duration">DATE FINAL</h4>
-              <select name="option" class="select1">
-                <option disabled="disabled" selected="selected">Select</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-              </select>
-            </div>
+          <div class="selection">
+            <h4 class="duration">ENFANTS</h4>
+            <select name="option" class="select1">
+              <option disabled="disabled" selected="selected">Select</option>
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+            </select>
           </div>
+        </div>
 
-          <div id="people">
-            <div class="selection">
-              <h4 class="duration">ADULTE</h4>
-              <select name="option" class="select1">
-                <option disabled="disabled" selected="selected">Select</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-              </select>
-            </div>
-
-            <div class="selection">
-              <h4 class="duration">ENFANTS</h4>
-              <select name="option" class="select1">
-                <option disabled="disabled" selected="selected">Select</option>
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>
-                <option value="">4</option>
-              </select>
-            </div>
-          </div>
-
-          <div class="block-1">
-            <a href="rechercheV.html"
-              ><button type="search" id="search-input">GO</button></a
-            >
-          </div>
-        </form>
-      </div>
-    </section>
+        <div class="block-1">
+            <router-link to='/recherchev' >
+            <button type="search" id="search-input">GO</button></router-link>
+        </div>
+      </form>
+    </div>
+  </section>
 </template>
 <script>
 export default {};
+
 </script>
 <style>
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
