@@ -172,12 +172,15 @@ export default {
     width: 300px;
     font-size: 30px;
   }
+
   #contain-dest {
-    margin-top: 100px;
+    margin-top: 220px;
+    height: 450px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
+
   #dest1,
   #dest2,
   #dest3,

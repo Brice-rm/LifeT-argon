@@ -1,10 +1,15 @@
 <template>
     <div>
         <mainimgP></mainimgP>
+        <bodyp></bodyp>
+        <conectp></conectp>
     </div>
 </template>
 <script>
-import Mainimg from './panier/MainimgP';
+import MainimgP from './panier/MainimgP';
+import Bodyp from './panier/Bodyp';
+
+
 
 
 
@@ -14,6 +19,7 @@ export default {
   name: "panier",
   components: {
     MainimgP,
+    Bodyp,
 
     // Video
   }

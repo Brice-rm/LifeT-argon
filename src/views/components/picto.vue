@@ -39,6 +39,7 @@
 .picto-img {
   margin: 25px 0px 10px 0px;
   width: 40px;
+  height: 50px;
   padding-bottom: 10px;
   border-bottom: 1px solid #4f555c;
 }
@@ -67,6 +68,7 @@
   .picto-img {
     margin: 50px 0px 10px 0px;
     width: 55px;
+    height: 65px;
     padding-bottom: 10px;
   }
   .descr-picto {
@@ -83,6 +85,7 @@
   .picto-img {
     margin: 150px 0px 10px 0px;
     width: 100px;
+    height: 110px;
     border-bottom: 1px solid #4f555c;
   }
   .descr-picto {

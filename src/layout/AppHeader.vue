@@ -19,11 +19,10 @@
                 ACCUEIL
             </router-link>
         </li>
-        <li class="nav-item">
-            <a class="nav-link nav-link-icon" href="#">
+          <li class="nav-item">
+            <router-link to='/Panier' class="nav" >
                 PANIER
-            </a>
-        </li>
+            </router-link>
           <li class="nav-item">
             <router-link to='/Landing' class="nav" >
                 CONTACTS

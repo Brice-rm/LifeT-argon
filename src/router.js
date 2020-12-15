@@ -7,7 +7,7 @@ import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
-// import Panier from "./views/Panier.vue";
+import Panier from "./views/Panier.vue";
 
 
 Vue.use(Router);
@@ -60,15 +60,15 @@ export default new Router({
         footer: AppFooter
       }
     },
-    // {
-    //   path: "/panier",
-    //   name: "panier",
-    //   components: {
-    //     header: AppHeader,
-    //     default: Panier,
-    //     footer: AppFooter
-    //   }
-    // }
+    {
+      path: "/panier",
+      name: "panier",
+      components: {
+        header: AppHeader,
+        default: Panier,
+        footer: AppFooter
+      }
+    }
   ],
   scrollBehavior: to => {
     if (to.hash) {

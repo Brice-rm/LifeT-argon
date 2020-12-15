@@ -1,19 +1,16 @@
-    <template>
+<template>
     <section id="main-img2">
         <h1 id="votre-voy">PANIER</h1>
     </section>
-    </template>
-
-    <script>
-        export default {
+</template>
+<script>
+export default {
     
 }
-    </script>
-
+</script>
 <style>
-    
-  #main-img2 {
-  background-image: url();
+#main-img2 {
+  background-image: url("https://zupimages.net/up/20/49/yed6.jpg");
   height: 100px;
   width: auto;
   margin-bottom: 35px;
@@ -56,5 +53,5 @@
     font-size: 75px;
     height: 300px;
   }
-}    
+}
 </style>
