@@ -22,7 +22,7 @@
 /* PICTO */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 #picto {
-  background-image: url(https://zupimages.net/up/20/50/lhyj.jpg);
+  background-image: url("https://zupimages.net/up/20/50/lhyj.jpg");
   background-repeat: no-repeat;
   margin-top: 50px;
   height: 130px;

@@ -3,16 +3,16 @@
     <div id="block">
       <form action="search" id="form-home">
         <h2 class="titre-form">TROUVE TON VOYAGE</h2>
-        <br>
+        <br />
 
         <h4 class="sous-titre">DE</h4>
         <div class="block-1">
-          <input type="from" class="input">
+          <input type="from" class="input" />
         </div>
 
         <h4 class="sous-titre">A</h4>
         <div class="block-1">
-          <input type="to" class="input">
+          <input type="to" class="input" />
         </div>
 
         <div id="choose">
@@ -82,7 +82,7 @@ export default {};
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!! */
 #main-img {
-  background-image: url(https://zupimages.net/up/20/49/yed6.jpg);
+  background-image: url("https://zupimages.net/up/20/49/yed6.jpg");
   height: 300px;
   background-size: cover;
   background-repeat: no-repeat;
