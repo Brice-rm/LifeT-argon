@@ -3,16 +3,16 @@
     <div id="block">
       <form action="search" id="form-home">
         <h2 class="titre-form">TROUVE TON VOYAGE</h2>
-        <br />
+        <br>
 
         <h4 class="sous-titre">DE</h4>
         <div class="block-1">
-          <input type="from" class="input" />
+          <input type="from" class="input">
         </div>
 
         <h4 class="sous-titre">A</h4>
         <div class="block-1">
-          <input type="to" class="input" />
+          <input type="to" class="input">
         </div>
 
         <div id="choose">
