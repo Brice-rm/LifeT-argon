@@ -8,8 +8,8 @@
 </template>
 <script>
 import Carousel from './components/Carousel';
-import Mainimg from './components/mainimg';
-import Picto from './components/picto';
+import Mainimg from './components/Mainimg';
+import Picto from './components/Picto';
 // import Video from './components/video';
 
 export default {
