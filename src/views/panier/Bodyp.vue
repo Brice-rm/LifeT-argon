@@ -149,6 +149,7 @@ export default {
 
 #all-contain {
   width: 100%;
+  max-width: 1750px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -314,6 +315,7 @@ margin-bottom: 50px;
   #all-contain {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100%;
     height: 100%;
   }
@@ -321,7 +323,7 @@ margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 70%;
+    
     height: 810px;
     margin: 35px;
   }
@@ -329,7 +331,7 @@ margin-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    width: 30%;
+    
     height: 810px;
     margin: 35px;
   }
